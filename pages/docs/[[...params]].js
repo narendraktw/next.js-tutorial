@@ -12,7 +12,7 @@ const Docs = () => {
 	} else if (params.length === 1) {
 		return <h1>Viewing docs for feature {params[0]}</h1>;
 	}
-	return <div>Docs Home page</div>;
+	return <div>Docs Home Page</div>;
 };
 
 export default Docs;
