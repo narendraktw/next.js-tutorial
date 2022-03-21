@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-
+//catch all routes
 const Docs = () => {
 	const router = useRouter();
 	const { params = [] } = router.query;
