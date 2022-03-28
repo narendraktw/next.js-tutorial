@@ -1,6 +1,6 @@
 import Link from 'next/link';
 function PostList({ posts }) {
-	console.log(posts);
+	// console.log(posts);
 	return (
 		<>
 			<h1>List of Posts</h1>
@@ -24,7 +24,7 @@ export async function getStaticProps() {
 
 	return {
 		props: {
-			posts: data.slice(0, 3),
+			posts: data,
 		},
 	};
 }
